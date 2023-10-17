@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mncedisi Hlonzi personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <nav>
+                <!--<img src="images/logo.png" class="logo">-->
+                <a href="#" class="logo"><span>M</span>ncedisi.</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#skills">My skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class='bx bxs-x-circle' onclick="closemenu()"></i>
+                </ul>
+                <i class='bx bx-menu' onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, It's Me</p>
+                <h1><span>Mncedisi Hlonzi</span></h1>
+                <h2>I'm a <span id="typing-span"></span></h2>
+                <p class="slogan">Crafting Digital Solutions: Code by Day, Design by Night.</p>
+                <p class="slogan">Weaving Innovation: Building, Designing, and Solving, One Line at a Time.</p>
+                <!-- ... rest of your content ... -->
+                <div class="social-media">
+                    <a href="https://www.facebook.com/profile.php?id=100042631501987"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/ll_tycoon/?next=%2F"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2FIl_tycoon%3Ffbclid%3DIwAR0dOfuUbKoEmjlaAiaDN88rdW3GFGPkGxtsBVXX6shn_VQbQq7pAMvKo1M&h=AT2pI6nNSBbfJxq1WuquEZYVupVD7iGiV_EesYqS-I6SQ74wEe_RSTnmM__KViCkATxYS6cVDtokFeKW-P5ibFl7cLjeUnNXEM4aPzbnv4D2jun9vrddy47kDrELH00PwXJzGw"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/mncedisi-hlonzi-163a2b239/"><i class='bx bxl-linkedin' ></i></a>
+                </div>
+                <div class="button">
+                    <a href="MyCV/Mncedisi CV.pdf" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+        <!--About-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="images/Picture.jpg">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="sub-title">About Me</h1>
+                        <h2>Full Stack Developer !</h2>
+                        <p>Hello there! I'm Mncedisi Hlonzi a passionate and ambitious junior software and website developer currently pursuing my degree in IT (Software Development). With a deep-rooted love for technology, I am constantly driven to explore and embrace the latest trends and advancements in the industry. My journey into the world of programming began as a curious individual who enjoyed solving problems through creative and innovative solutions. As I progressed in my studies, I discovered the joy of building user-centric applications and websites that not only meet but exceed expectations.</p>
+                        <!--<p>My expertise lies in several programming languages such as 'Java, Python, C#, JavaScript, Typescript, PHP, Html, CSS', and I'm well-versed in various front-end and back-end technologies, enabling me to craft seamless and responsive digital experiences. I'm always eager to take on new challenges, and I thrive in collaborative environments where I can learn from experienced professionals while contributing my own fresh perspectives.</p>
+                        <div class="btn">Read More</div>-->
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>2020</span><br>IT(Software Development) at Mangosuthu University of Technology.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021-2023</span><br>Suicide Squad team leader for viarious successfully Mobile & Web Apps, Desktop & System design and development.</li>
+                                <li><span>2022</span><br>THE TYCOONS TECH 'Founder</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Services-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class='bx bx-code-alt'></i>
+                        <h2>Software Development</h2>
+                        <p>I specialize in crafting powerful and efficient software solutions that cater to a variety of needs</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-crop'></i>
+                        <h2>Website Development</h2>
+                        <p>I have a knack for turning creative visions into captivating online experiences. Through a blend of front-end and back-end expertise, I design and develop websites that not only look great but also provide seamless navigation and a user-friendly interface.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-collapse-alt'></i>
+                        <h2>System Design</h2>
+                        <p>Creating efficient and robust systems is my passion. Whether it's designing architectures for complex applications or optimizing existing workflows, I bring a strategic mindset to ensure that every component works harmoniously.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1s.jpg">
+                        <div class="layer">
+                            <h3>Web Music Player</h3>
+                            <p>Web music player comming up that will connect artists with a broader audience, from the heart of South Africa to the rest of the world.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2s.jpg">
+                        <div class="layer">
+                            <h3>Music Player App</h3>
+                            <p>Music player application comming up along it official web player, One project and same mission.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3s.jpg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>My social media app comming up that redefines online networking, offering a unique space for users to connect, share, and engage, with a focus on user privacy and seamless interaction.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btns">See More</a>
+        </div>
+
+        <!--My Skills-->
+        <h1 id="skills" class="sub-titles">My <span>Skills</span></h1>
+
+        <section class="skills-section">
+            <div class="skills-pair">
+            <div class="container1" id="Skills">
+                <h1 class="heading1">Technical Skills</h1>
+                <div class="Technical-bars">
+                    <div class="bar"><i style="color: #630404" class='bx bxl-java'></i>
+                        <div class="info">
+                            <span>Java</span>
+                        </div>
+                        <div class="progress-line java">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color: #eeff00" class='bx bxl-javascript' ></i>
+                        <div class="info">
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="progress-line JavaScript">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color: #7c0c60" class='bx bxl-python'></i>
+                        <div class="info">
+                            <span>Python</span>
+                        </div>
+                        <div class="progress-line python">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color: #1900ff" class='bx bxl-html5'></i>
+                        <div class="info">
+                            <span>HTML</span>
+                        </div>
+                        <div class="progress-line html">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="bar"><i style="color: #00ffea" class='bx bxl-css3'></i>
+                        <div class="info">
+                            <span>CSS</span>
+                        </div>
+                        <div class="progress-line CSS">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container1">
+                <h1 class="heading1">Professional Skills</h1>
+                <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">95%</div>
+                        <div class="text">Creativity</div>
+                    </div>
+                    
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">65%</div>
+                        <div class="text">Communication</div>
+                    </div>
+                </div>
+                
+                <div class="radial-bars">
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">85%</div>
+                        <div class="text">Problem Solving</div>
+                    </div>
+                    
+                    <div class="radial-bar">
+                        <svg x="0px" y="0px" viewBox="0 0 200 200">
+                            <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                            <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                        </svg>
+                        <div class="percentage">75%</div>
+                        <div class="text">Teamwork</div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+        </section>
+
+        <!--My Life As a programmer-->
+        <!--<style>
+            #myLife {
+        background: linear-gradient(to bottom, #3b0446, black);
+        color: white;
+        padding: 20px;
+    }
+
+    #myLife h1 {
+        margin-left: 150px;
+        color: #2ee7ff;
+        font-size: 40px;
+    }
+
+    .keyword {
+        color: #FFA500;
+        font-weight: bold;
+    }
+
+    .class, .type {
+        color: #FF00FF;
+        font-weight: bold;
+    }
+
+    .method {
+        color: #FFFF00;
+    }
+
+    .comment {
+        color: #00FFFF;
+    }
+
+    .string {
+        color: #FF0000;
+    }
+
+    /* Media query for screens with a maximum width of 600px */
+    @media only screen and (max-width: 600px) {
+        #myLife h1 {
+            margin-left: 0; /* Remove the left margin */
+            text-align: center; /* Center the heading */
+            font-size: 30px; /* Adjust the font size */
+        }
+
+        /* Adjust the font size and styles for code elements */
+        #java-code code {
+            font-size: 12px;
+        }
+
+        /* Add more adjustments as needed */
+    }
+        </style>
+        <div id="myLife">
+            <h1>My Daily Life</h1>
+            <pre id="java-code">
+                <code>
+                    <span class="keyword">import</span> <span class="package">java.util</span>;
+    
+                    <span class="class">class</span> <span class="className">SoftwareDeveloper</span> {
+                        <span class="private">private</span> <span class="type">String</span> name;
+                        <span class="private">private</span> <span class="type">int</span> caffeineLevel;
+                        <span class="private">private</span> <span class="class">List</span><<span class="type">String</span>> tasks;   
+                         
+                        <span class="method">public</span> <span class="className">SoftwareDeveloper</span>(<span class="type">String</span> name) {
+                            <span class="keyword">this</span>.name = name;
+                            <span class="keyword">this</span>.caffeineLevel = 0;
+                            <span class="keyword">this</span>.tasks = <span class="keyword">new</span> <span class="class">ArrayList</span><<span class="type">String</span>>();
+                        }
+
+                        <span class="method">public</span> <span class="type">void</span> wakeUp() {
+                            <span class="class">System</span>.<span class="method">out</span>.<span class="method">println</span>(name + " wakes up and greets the stack overflow gods.");
+                        }
+    
+                        <span class="method">public</span> <span class="type">void</span> drinkCoffee() {
+                            caffeineLevel++;
+                            <span class="class">System</span>.<span class="method">out</span>.<span class="method">println</span>(name + " consumes coffee #" + caffeineLevel + " and feels supercharged.");
+                        }
+    
+                        <span class="method">public</span> <span class="type">void</span> writeCode(<span class="type">String</span> task) {
+                            tasks.add(task);
+                            <span class="class">System</span>.<span class="method">out</span>.<span class="method">println</span>(name + " writes code for task: " + task);
+                        }
+    
+                        <span class="method">public</span> <span class="type">void</span> procrastinate() {
+                            <span class="class">Random</span> random = <span class="keyword">new</span> <span class="class">Random</span>();
+                            <span class="type">int</span> procrastinationTime = random.<span class="method">nextInt</span>(60) + 1; <span class="comment">// Up to 60 minutes</span>
+                            <span class="class">System</span>.<span class="method">out</span>.<span class="method">println</span>(name + " procrastinates for " + procrastinationTime + " minutes.");
+                        }
+    
+                        <span class="method">public</span> <span class="type">void</span> codeReview() {
+                            <span class="keyword">if</span> (!tasks.isEmpty()) {
+                                <span class="type">String</span> task = tasks.<span class="method">get</span>(0);
+                                <span class="class">System</span>.<span class="method">out</span>.<span class="method">println</span>(name + " conducts a code review for task: " + task);
+                                tasks.<span class="method">remove</span>(0);
+                            } <span class="keyword">else</span> {
+                                <span class="class">System</span>.<span class="method">out</span>.<span class="method">println</span>(name + " realizes there's no code left to review!");
+                            }
+                        }
+    
+                        <span class="method">public</span> <span class="type">void</span> nap() {
+                            <span class="class">System</span>.<span class="method">out</span>.<span class="method">println</span>(name + " takes a power nap to recharge.");
+                        }
+    
+                        <span class="method">public</span> <span class="class">static</span> <span class="type">void</span> main(<span class="class">String</span>[] args) {
+                            <span class="className">SoftwareDeveloper</span> mncedisi = <span class="keyword">new</span> <span class="className">SoftwareDeveloper</span>("Mncedisi");
+                            mncedisi.wakeUp();
+    
+                            <span class="keyword">for</span> (<span class="type">int</span> i = 0; i < 8; i++) {
+                                mncedisi.drinkCoffee();
+                                mncedisi.writeCode("Feature #" + (i + 1));
+                                mncedisi.procrastinate();
+                            }
+    
+                            <span class="keyword">while</span> (!mncedisi.tasks.isEmpty()) {
+                                mncedisi.codeReview();
+                            }
+    
+                            mncedisi.nap();
+                            <span class="class">System</span>.<span class="method">out</span>.<span class="method">println</span>("A productive day for " + mncedisi.name + " comes to an end.");
+                        }
+                    }
+                </code>
+            </pre>
+        </div>-->
+
+        <!--Contact-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class='bx bx-paper-plane' ></i>Mncedisinhlozi37@gmail.com</p>
+                        <p><i class='bx bxs-phone' ></i>071 320 6001</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/profile.php?id=100042631501987"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="https://www.instagram.com/ll_tycoon/?next=%2F"><i class='bx bxl-instagram-alt' ></i></a>
+                            <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2FIl_tycoon%3Ffbclid%3DIwAR0dOfuUbKoEmjlaAiaDN88rdW3GFGPkGxtsBVXX6shn_VQbQq7pAMvKo1M&h=AT2pI6nNSBbfJxq1WuquEZYVupVD7iGiV_EesYqS-I6SQ74wEe_RSTnmM__KViCkATxYS6cVDtokFeKW-P5ibFl7cLjeUnNXEM4aPzbnv4D2jun9vrddy47kDrELH00PwXJzGw"><i class='bx bxl-twitter' ></i></a>
+                            <a href="https://www.linkedin.com/in/mncedisi-hlonzi-163a2b239/"><i class='bx bxl-linkedin-square' ></i></a>
+                        </div>
+                        <a href="MyCV/Mncedisi CV.pdf" download class="btn">Download Cv</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--<div class="copyright">
+            <p>Copyright <i class='bx bx-copyright' ></i> Mncedisi Hlonzi</p>
+        </div>-->
+
+        <footer>
+            <div class="footer-content">
+                <h3>MNCEDISI</h3>
+                <P>Crafting Digital Magic<br>One Line of Code at a Time. Unveiling the Future<br>One Byte at a Time.</P>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100042631501987"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/ll_tycoon/?next=%2F"><i class='bx bxl-instagram-alt' ></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ftwitter.com%2FIl_tycoon%3Ffbclid%3DIwAR0dOfuUbKoEmjlaAiaDN88rdW3GFGPkGxtsBVXX6shn_VQbQq7pAMvKo1M&h=AT2pI6nNSBbfJxq1WuquEZYVupVD7iGiV_EesYqS-I6SQ74wEe_RSTnmM__KViCkATxYS6cVDtokFeKW-P5ibFl7cLjeUnNXEM4aPzbnv4D2jun9vrddy47kDrELH00PwXJzGw"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.linkedin.com/in/mncedisi-hlonzi-163a2b239/"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+                <div class="footer-bottom">
+                    <p>Copyright © Mncedisi Hlonzi 2023 | All Rights Reserved</p> 
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzNiKGnlqcITWwICagXy5ZfBvO-ANLE72vzRIG_Yw_kAjqnuplmhs8zcQ5w6FltaCeK/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    
+
+</body>
+
+</html>
