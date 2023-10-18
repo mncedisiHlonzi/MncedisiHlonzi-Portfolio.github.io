@@ -845,7 +845,7 @@ nav .bx{
         font-size: 25px;
     }
     nav ul{
-        background: #00e1ff;
+        background: #3b0446;
         position: fixed;
         top: 0;
         right: -400px;
@@ -892,7 +892,7 @@ nav .bx{
     .sub-titles{
         left: 0;
         margin-left: 45px;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
     }
 
     .skills-section {
