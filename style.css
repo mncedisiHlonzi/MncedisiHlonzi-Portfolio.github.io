@@ -793,11 +793,22 @@ nav .bx{
     display: none;
 }
 @media only screen and (max-width: 600px) {
+
+    body{
+        /*background: #f3e2f0;*/
+        background: #3b0446;
+        color: #fff;
+    }
+
     .header {
-        background-image: url(images/aa.png);
+        background-image: url(images/resp2.png);
+    }
+    .logo span{
+        color: #a10cc7;
     }
     .header-text p{
         font-size: 20px;
+    
       }
       .header-text {
         margin-top: 100%;
@@ -805,10 +816,12 @@ nav .bx{
       }
       .header-text h1 span {
         font-size: 40px;
+    
       }
       .header-text h2{
         margin-top: 8px;
         font-size: 25px;
+    
       }
       .header-text h2 span{
         font-size: 25px;
@@ -832,7 +845,7 @@ nav .bx{
         font-size: 25px;
     }
     nav ul{
-        background: #3b0446;
+        background: #00e1ff;
         position: fixed;
         top: 0;
         right: -400px;
