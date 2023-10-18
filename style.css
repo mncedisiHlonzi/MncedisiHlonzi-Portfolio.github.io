@@ -867,7 +867,7 @@ nav .bx{
     }
 
     .row {
-        flex-direction: column; /* Stack columns vertically with .about-col2 on top */
+        flex-direction: column;
     }
 
     .about-col1 {
@@ -875,13 +875,17 @@ nav .bx{
     }
 
     .about-col1 img {
-        margin-top: 395px; /* Remove margin on top of the image */
+        margin-top: 395px;
         margin-bottom: -95px;
     }
 
     .about-col2 {
         flex-basis: 100%;
         margin-top: 25px;
+    }
+
+    .layer{
+        height: 100%;
     }
 
 
