@@ -801,7 +801,7 @@ nav .bx{
     }
 
     .header {
-        background-image: url(images/resp2.png);
+        background-image: url(images/aa.png);
     }
     .logo span{
         color: #a10cc7;
@@ -871,7 +871,7 @@ nav .bx{
     }
 
     .about-col1 {
-        flex-basis: 100%;
+        display: none;
     }
 
     .about-col1 img {
@@ -881,6 +881,7 @@ nav .bx{
 
     .about-col2 {
         flex-basis: 100%;
+        margin-top: 25px;
     }
 
 
